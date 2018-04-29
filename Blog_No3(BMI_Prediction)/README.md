@@ -10,3 +10,20 @@ Underweight data points are shown by Red colour
 Normal are shown by blue
 Overweight are shown by green
 Obese are shown by black 
+
+
+
+The output should look something like this:
+[NAIFE@localhost python]$ python prediction.py
+Enter the height145
+Enter the weight46
+['underweight']
+[NAIFE@localhost python]$ python prediction.py
+Enter the height192
+Enter the weight82
+['normal']
+[NAIFE@localhost python]$ python prediction.py
+Enter the height136
+Enter the weight92
+['obese']
+[NAIFE@localhost python]$
