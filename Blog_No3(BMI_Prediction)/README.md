@@ -13,7 +13,7 @@ Obese are shown by black
 
 
 
-The output should look something like this:
+# The output should look something like this:
 [NAIFE@localhost python]$ python prediction.py
 Enter the height145
 Enter the weight46
