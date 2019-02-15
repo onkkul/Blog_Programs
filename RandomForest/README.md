@@ -17,5 +17,5 @@ Python 3.0 with above mentioned libraries installed.
 The "German Credit Data-set" as csv file (included in this folder)
 
 
-*Desclaimer:
+*disclaimer:
 The program is an illustration of Random Forest algorithm to elucidate construction and working. Not all program sticks to the rules of Random Forest algorithm.
