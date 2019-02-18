@@ -27,11 +27,11 @@ Data_Indices = list()    #Index list of row numbers that we will pass to the ind
 Local_Data = list()      #This will store data from those above rows in index list for individual trees(bags).
 Local_Labels = list()    #This will store labels from those above rows in index list for individual trees.
 TreeNames= list()        #The list that will contain the Trees using their names(we will name them on line no. 35)
-Result = list()          #List to store result of each tree(26 results in total).
+Result = list()          #List to store result of each tree(45 results in total).
 check_accuracy =  list() #List used to check accuracy.
 
 for Tree_Name in range (0,45):
-    TreeNames.append(Tree_Name)     #Naming our trees in forest(26 trees named 0 through 45)
+    TreeNames.append(Tree_Name)     #Naming our trees in forest(45 trees named 0 through 45)
 
 for each_name in TreeNames:     #Creating the index of >RANDOMLY< selected row numbers for each tree
     RowNumbers_of_DataPoints_for_One_Tree = random.sample(range(0,1000),50)  #We are "RANDOMLY" selecting datapoints for each tree. (Reason we call it "random forest".)
