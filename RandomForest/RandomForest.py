@@ -31,7 +31,7 @@ Result = list()          #List to store result of each tree(26 results in total)
 check_accuracy =  list() #List used to check accuracy.
 
 for Tree_Name in range (0,45):
-    TreeNames.append(Tree_Name)     #Naming our trees in forest(26 trees named 0 through 25)
+    TreeNames.append(Tree_Name)     #Naming our trees in forest(26 trees named 0 through 45)
 
 for each_name in TreeNames:     #Creating the index of >RANDOMLY< selected row numbers for each tree
     RowNumbers_of_DataPoints_for_One_Tree = random.sample(range(0,1000),50)  #We are "RANDOMLY" selecting datapoints for each tree. (Reason we call it "random forest".)
